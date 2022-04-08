@@ -1,0 +1,64 @@
+POST http://localhost:3000/api/jsonBlob
+Content-type: application/json
+
+{
+	"people": 
+	[
+		"Hunter",
+		"Will",
+		"Xavier",
+		"Simon"
+	]
+}
+
+###
+
+GET http://localhost:3000/api/jsonBlob/test
+Content-type: application/json
+
+{
+	"people": 
+	[
+		"Hunter",
+		"Will",
+		"Xavier",
+		"Simon"
+	]
+}
+
+###
+
+PUT http://localhost:3000/api/jsonBlob/test
+Content-type: application/json
+
+{
+	"people": 
+	[
+		"Hunter",
+		"Will",
+		"Simon",
+		"Xavier"
+	]
+}
+
+###
+
+GET http://localhost:3000/api/jsonBlob/test
+Content-type: application/json
+
+{
+	"people": 
+	[
+		"Hunter",
+		"Will",
+		"Simon",
+		"Xavier"
+	]
+}
+
+###
+
+DELETE http://localhost:3000/api/jsonBlob/test
+Content-type: application/json
+
+{}

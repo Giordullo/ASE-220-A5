@@ -1,0 +1,17 @@
+{
+  "name": "ase-220-a5",
+  "version": "1.0.0",
+  "description": "replica of the API system of jsonblob.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "N/A"
+  },
+  "author": "Hunter Giordullo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "uuid": "^8.3.2"
+  }
+}
